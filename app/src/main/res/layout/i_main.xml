@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/i_ll"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/i_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="日期" />
+        <View
+            android:layout_width="1sp"
+            android:background="#242424"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/i_money"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="金额" />
+        <View
+            android:layout_width="1sp"
+            android:background="#242424"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/i_names"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="人员" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#242424" />
+
+</LinearLayout>

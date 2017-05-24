@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义控件的主题样式-->
+    <declare-styleable name="BenSportView">
+        <attr name="titleSize" format="dimension"/>
+        <attr name="titleText" format="string"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="outCircleColor" format="color"/>
+        <attr name="inCircleColor" format="color"/>
+        <attr name="inMainCircleColor" format="color"/>
+    </declare-styleable>
+</resources>

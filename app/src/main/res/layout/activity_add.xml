@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/add_date_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间选择器" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="金额" />
+
+    <EditText
+        android:id="@+id/add_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="金额" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="买单人员" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/add_cb_lyx"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name1" />
+
+        <CheckBox
+            android:id="@+id/add_cb_wgb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name2" />
+
+        <CheckBox
+            android:id="@+id/add_cb_lxc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name3" />
+
+        <CheckBox
+            android:id="@+id/add_cb_cs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/add_cb_zsw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name5" />
+
+        <CheckBox
+            android:id="@+id/add_cb_zpp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name6" />
+
+        <CheckBox
+            android:id="@+id/add_cb_lzq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/name7" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+
+</LinearLayout>
